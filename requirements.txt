@@ -4,3 +4,4 @@ Flask==1.1.2
 matplotlib==3.3.2
 numpy==1.19.5
 scikit_learn==0.24.1
+gunicorn
