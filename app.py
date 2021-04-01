@@ -19,7 +19,7 @@ def predict():
     output = round(prediction[0], 2)
 
     return render_template('home.html', predict='Sales should be $ {}'.format(output))
-
+'''
 @app.route('/results',methods=['POST'])
 def results():
 
@@ -28,7 +28,7 @@ def results():
 
     output = prediction[0]
     return jsonify(output)
-
+'''
 if __name__ == "__main__":
     app.run(debug=True)
     
